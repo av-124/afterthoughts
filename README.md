@@ -22,7 +22,7 @@ I love learning new tools, simplifying complexity and helping broaden people's v
 
 ## A few guiding principles I've been relying on
 - Everything can be learned with time
-- Seek out and do the things that scare you (it's where growth lies)
+- Seek out and do the things that scare you (that's where growth lies)
 - Surround yourself with curious, kind and ambitious people
 
 ## Thanks for reading!
