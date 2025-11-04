@@ -6,7 +6,7 @@ Let me begin with a quote that’s never failed to inspire me:
 
 It’s a reminder that, despite how fixed the world can seem, it’s actually _malleable_ – something we can shape through curiosity, creativity and effort.
 
-I’ve always been drawn to people and technology. I love learning new tools, exploring bold ideas and helping others make sense of them. My happy place is wherever I can use my knowledge and experience to connect, collaborate and create.
+I love learning new tools, simplifying complexity and helping broaden people's views of what is possible. My happy place is wherever I can use my technical understanding and communication skills to connect, collaborate and create meaningful impact.
 
 ## A summary of my life so far
 
@@ -16,13 +16,13 @@ I’ve always been drawn to people and technology. I love learning new tools, ex
 🎓 Studied a **double degree in Engineering and Science** at the University of Sydney while working part-time as an academic tutor  
 🥩 **Joined [Vow](https://www.eatvow.com)** – Australia's _first_ cultured meat company – as a scientist, helping develop and scale their bioprocess  
 💪🏼 Inspired by friends at work, I trained for and **completed an [Ironman 70.3](https://www.youtube.com/watch?v=1_BncS0iAvM&t=3h58m35s)**, with almost no prior experience in swimming, cycling or running  
-🌏 After 3+ eventful years at Vow, I left to fulfil a long-term dream: to **travel around the world**  
+🌏 After 3+ eventful years at Vow, I left to fulfil a dream of mine: **solo travel around the world**  
 ✅ 11 months later, I’d **visited 18 countries across 6 continents**, hitting my goal of seeing 30 before 30  
-🚀 Currently, I’m spending my time learning [full stack web development](https://www.theodinproject.com), training for a full Ironman and **exploring new opportunities** at the intersection of people and technology
+🚀 Currently, I’m spending my time learning [full stack web development](https://www.theodinproject.com), **exploring opportunities at the intersection of people and technology** and training for a full Ironman
 
 ## A few guiding principles I've been relying on
 - Everything can be learned with time
-- Seek out and do the things that you're afraid of
+- Seek out and do the things that scare you (it's where growth lies)
 - Surround yourself with curious, kind and ambitious people
 
 ## Thanks for reading!
