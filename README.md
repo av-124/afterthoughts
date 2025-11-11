@@ -18,7 +18,7 @@ I love learning new tools, simplifying complexity and helping broaden people's v
 💪🏼 Inspired by friends at work, I trained for and **completed an [Ironman 70.3](https://www.youtube.com/watch?v=1_BncS0iAvM&t=3h58m35s)**, with almost no prior experience in swimming, cycling or running  
 🌏 After 3+ eventful years at Vow, I left to fulfil a dream of mine: **solo travel around the world**  
 ✅ 11 months later, I’d **visited 18 countries across 6 continents**, hitting my goal of seeing 30 before 30  
-🚀 Currently, I’m spending my time learning [full stack web development](https://www.theodinproject.com), **exploring opportunities at the intersection of people and technology** and training for a full Ironman
+🚀 Currently, I’m spending my time learning [full stack development](https://www.theodinproject.com), **exploring opportunities at the intersection of people and technology** and training for an Ironman
 
 ## A few guiding principles I've been relying on
 - Everything can be learned with time
