@@ -50,9 +50,9 @@ title: About
   <section class="about-section">
     <h2 class="about-section-label">find me</h2>
     <div class="about-links">
-      <a href="mailto:addysuresh1@gmail.com" class="about-link">email</a>
-      <a href="https://linkedin.com/in/addysuresh" class="about-link" target="_blank" rel="noopener">linkedin</a>
-      <a href="https://github.com/addysuresh" class="about-link" target="_blank" rel="noopener">github</a>
+      <a href="mailto:avignaraja@icloud.com" class="footer-link">email</a>
+      <a href="https://github.com/av-124" class="footer-link" target="_blank" rel="noopener">github</a>
+      <a href="https://linkedin.com/in/adithya-vignaraja" class="footer-link" target="_blank" rel="noopener">linkedin</a>
     </div>
   </section>
 

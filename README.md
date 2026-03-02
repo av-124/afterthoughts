@@ -26,4 +26,4 @@ I love learning new tools, simplifying complexity and helping broaden people's v
 - Surround yourself with curious, kind and ambitious people
 
 ## Thanks for reading!
-🔗 [Email](mailto:avignaraja@icloud.com) / [LinkedIn](https://www.linkedin.com/in/adithya-vignaraja-088307161) / [GitHub](https://github.com/av-124)
+🔗 [Email](mailto:avignaraja@icloud.com) / [LinkedIn](https://www.linkedin.com/in/adithya-vignaraja) / [GitHub](https://github.com/av-124)

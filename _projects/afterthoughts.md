@@ -4,7 +4,7 @@ description: "A personal canvas for photography, writing, projects and experienc
 status: active
 year: 2026
 tags: [jekyll, web, design]
-url_repo: https://github.com/addysuresh/afterthoughts
+url_repo: https://github.com/av-124/afterthoughts
 featured: true
 ---
 
