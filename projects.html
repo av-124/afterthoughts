@@ -8,7 +8,7 @@ description: Things I've built or am currently working on.
   <header class="page-header">
     <h1 class="page-title" style="color: var(--amber);">
       <span class="page-title-dot" style="background: var(--amber);"></span>
-      projects
+      Projects
     </h1>
     <p class="page-subtitle">Things I've built or am currently working on.</p>
   </header>
@@ -36,7 +36,7 @@ description: Things I've built or am currently working on.
       {% if project.tags.size > 0 %}
       <div class="project-card-tags">
         {% for tag in project.tags limit: 4 %}
-        <span class="tag tag--amber">{{ tag }}</span>
+        <span class="tag">{{ tag }}</span>
         {% endfor %}
       </div>
       {% endif %}
@@ -45,8 +45,8 @@ description: Things I've built or am currently working on.
   </div>
   {% else %}
   <div class="empty-state">
-    > no projects listed yet.<br>
-    > coming soon.
+    > No projects listed yet.<br>
+    > Coming soon.
   </div>
   {% endif %}
 </div>

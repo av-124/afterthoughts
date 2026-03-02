@@ -6,12 +6,12 @@ title: About
 <div class="about-container">
 
   <blockquote class="about-quote">
-    "When you grow up you tend to get told that the world is the way it is and your life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family life, have fun, save a little money. That's a very limited life. Life can be much broader, once you discover one simple fact: everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use."
+    "Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you’ll never be the same again."
     <cite>&mdash; Steve Jobs</cite>
   </blockquote>
 
   <section class="about-section">
-    <h2 class="about-section-label">who i am</h2>
+    <h2 class="about-section-label">Personal Background</h2>
     <div class="about-body">
       <p>
         I care deeply about learning, simplifying complexity, and connecting people with technology.
@@ -37,7 +37,7 @@ title: About
   </section>
 
   <section class="about-section">
-    <h2 class="about-section-label">how i think</h2>
+    <h2 class="about-section-label">Guiding Principles</h2>
     <div class="about-body">
       <ul class="principles-list">
         <li>Everything can be learned with enough time and the right approach.</li>
@@ -48,11 +48,11 @@ title: About
   </section>
 
   <section class="about-section">
-    <h2 class="about-section-label">find me</h2>
+    <h2 class="about-section-label">Find Me</h2>
     <div class="about-links">
-      <a href="mailto:avignaraja@icloud.com" class="footer-link">email</a>
-      <a href="https://github.com/av-124" class="footer-link" target="_blank" rel="noopener">github</a>
-      <a href="https://linkedin.com/in/adithya-vignaraja" class="footer-link" target="_blank" rel="noopener">linkedin</a>
+      <a href="mailto:avignaraja@icloud.com" class="footer-link">Email</a>
+      <a href="https://github.com/av-124" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/adithya-vignaraja" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </section>
 
