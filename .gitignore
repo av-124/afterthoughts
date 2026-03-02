@@ -9,3 +9,4 @@ Gemfile.lock
 *.rbc
 .DS_Store
 .claude/
+.ruby-version
