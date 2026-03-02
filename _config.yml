@@ -1,3 +1,45 @@
-theme: jekyll-theme-minimal
 title: Afterthoughts
 description: An open notebook to document reflections, experiments and growth in various domains of my life.
+author: Addy
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  photography:
+    output: false
+  experiences:
+    output: true
+    permalink: /experiences/:name/
+
+# Layout defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: "experience"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .bundle
+  - vendor
+  - .sass-cache
