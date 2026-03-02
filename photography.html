@@ -1,0 +1,48 @@
+---
+layout: default
+title: Photography
+description: Places and moments captured through a lens.
+---
+
+<div class="page-container">
+  <header class="page-header">
+    <h1 class="page-title" style="color: var(--pink);">
+      <span class="page-title-dot" style="background: var(--pink);"></span>
+      photos
+    </h1>
+    <p class="page-subtitle">Places and moments captured through a lens.</p>
+  </header>
+
+  {% if site.photography.size > 0 %}
+  <div class="photo-gallery">
+    {% for photo in site.photography %}
+    <div class="photo-item">
+      {% if photo.image %}
+      <img
+        src="{{ photo.image | relative_url }}"
+        alt="{{ photo.alt | default: photo.title }}"
+        loading="lazy"
+      >
+      {% else %}
+      <div class="photo-placeholder">[ {{ photo.title }} ]</div>
+      {% endif %}
+      {% if photo.title or photo.location %}
+      <div class="photo-caption">
+        {% if photo.title %}
+        <div class="photo-caption-title">{{ photo.title }}</div>
+        {% endif %}
+        {% if photo.location %}
+        <div class="photo-caption-meta">{{ photo.location }}{% if photo.date %} &middot; {{ photo.date | date: "%Y" }}{% endif %}</div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    > gallery coming soon.<br>
+    > check back later.
+  </div>
+  {% endif %}
+</div>

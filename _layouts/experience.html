@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post-container">
+  <header class="post-header">
+    <div class="post-meta">
+      {% if page.date %}
+      <span class="post-meta-date" style="color: var(--blue);">{{ page.date | date: "%b %Y" }}</span>
+      {% endif %}
+      {% if page.location %}
+      <span class="post-meta-sep">//</span>
+      <span class="post-meta-cat">{{ page.location }}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title" style="color: var(--blue);">{{ page.title }}</h1>
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag tag--blue">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-nav" style="justify-content: flex-start;">
+    <a href="{{ '/experiences' | relative_url }}" class="post-nav-link">
+      <span class="post-nav-label">&larr; all experiences</span>
+    </a>
+  </div>
+</article>

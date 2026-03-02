@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<article class="post-container">
+  <header class="post-header">
+    <div class="post-meta">
+      {% if page.status %}
+      <span class="status-badge status--{{ page.status }}">{{ page.status }}</span>
+      {% endif %}
+      {% if page.year %}
+      <span class="post-meta-sep">//</span>
+      <span class="post-meta-date">{{ page.year }}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title" style="color: var(--amber);">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag tag--amber">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if page.url_live or page.url_repo %}
+    <div class="project-links">
+      {% if page.url_live %}
+      <a href="{{ page.url_live }}" class="project-link-btn" target="_blank" rel="noopener">&#x25BA; live</a>
+      {% endif %}
+      {% if page.url_repo %}
+      <a href="{{ page.url_repo }}" class="project-link-btn project-link-btn--ghost" target="_blank" rel="noopener">{ source }</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-nav" style="justify-content: flex-start;">
+    <a href="{{ '/projects' | relative_url }}" class="post-nav-link">
+      <span class="post-nav-label">&larr; all projects</span>
+    </a>
+  </div>
+</article>

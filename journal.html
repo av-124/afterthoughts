@@ -1,0 +1,43 @@
+---
+layout: default
+title: Journal
+description: Thoughts, reflections, and observations.
+---
+
+<div class="page-container">
+  <header class="page-header">
+    <h1 class="page-title" style="color: var(--green);">
+      <span class="page-title-dot" style="background: var(--green);"></span>
+      journal
+    </h1>
+    <p class="page-subtitle">Thoughts, reflections and observations.</p>
+  </header>
+
+  {% if site.posts.size > 0 %}
+  <div class="post-cards">
+    {% for post in site.posts %}
+    <article class="post-card">
+      <div class="post-card-date">{{ post.date | date: "%d %b %Y" }}</div>
+      <h2 class="post-card-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.excerpt %}
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% endif %}
+      {% if post.tags.size > 0 %}
+      <div class="post-card-tags">
+        {% for tag in post.tags limit: 4 %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    > no entries yet.<br>
+    > coming soon.
+  </div>
+  {% endif %}
+</div>

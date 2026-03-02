@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<section class="landing">
+  <p class="landing-prompt">hello.</p>
+
+  <h1 class="landing-name">I'm <span class="accent">Addy</span>.</h1>
+
+  <p class="landing-tagline">
+    An open canvas for reflections,<br>
+    experiments and growth.
+  </p>
+
+  <nav class="landing-nav" aria-label="Sections">
+    <a href="{{ '/journal' | relative_url }}" class="nav-tile nav-tile--journal">
+      <span class="nav-tile-label">journal</span>
+      <span class="nav-tile-sub">thoughts &amp; reflections</span>
+    </a>
+    <a href="{{ '/projects' | relative_url }}" class="nav-tile nav-tile--projects">
+      <span class="nav-tile-label">projects</span>
+      <span class="nav-tile-sub">things i'm building</span>
+    </a>
+    <a href="{{ '/photography' | relative_url }}" class="nav-tile nav-tile--photos">
+      <span class="nav-tile-label">photos</span>
+      <span class="nav-tile-sub">moments captured</span>
+    </a>
+    <a href="{{ '/experiences' | relative_url }}" class="nav-tile nav-tile--experiences">
+      <span class="nav-tile-label">experiences</span>
+      <span class="nav-tile-sub">races, trips, milestones</span>
+    </a>
+    <a href="{{ '/about' | relative_url }}" class="nav-tile nav-tile--about">
+      <span class="nav-tile-label">about</span>
+      <span class="nav-tile-sub">who i am</span>
+    </a>
+  </nav>
+</section>
