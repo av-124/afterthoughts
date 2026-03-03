@@ -20,7 +20,7 @@ layout: default
     {% if page.tags.size > 0 %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <span class="tag tag--amber">{{ tag }}</span>
+      <span class="tag">{{ tag }}</span>
       {% endfor %}
     </div>
     {% endif %}
@@ -42,7 +42,7 @@ layout: default
 
   <div class="post-nav" style="justify-content: flex-start;">
     <a href="{{ '/projects' | relative_url }}" class="post-nav-link">
-      <span class="post-nav-label">&larr; all projects</span>
+      <span class="post-nav-label">&larr; All projects</span>
     </a>
   </div>
 </article>

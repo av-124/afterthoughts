@@ -3,7 +3,7 @@ title: "Afterthoughts"
 description: "A personal canvas for photography, writing, projects and experiences."
 status: active
 year: 2026
-tags: [jekyll, web, design]
+tags: [web, design]
 url_repo: https://github.com/av-124/afterthoughts
 featured: true
 ---
@@ -18,9 +18,7 @@ This site started as a bare Jekyll repo with a README and has since become somet
 
 ## Stack
 
-Built with Jekyll and plain HTML/CSS. No JavaScript frameworks. No build pipelines. The only external dependency is a Google Fonts import.
-
-The design intentionally leans into retro pixel aesthetics &mdash; a constraint that forced me to think carefully about typography and layout rather than reaching for component libraries.
+Built with Jekyll and plain HTML/CSS.
 
 ## What I learned
 
