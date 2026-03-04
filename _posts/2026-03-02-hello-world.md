@@ -1,5 +1,5 @@
 ---
-title: "Hello world."
+title: "Hello world"
 date: 2026-03-02
 tags: [beginnings]
 ---
